@@ -1,3 +1,6 @@
+A demo app for a series of articles about building web server in dart.
+Link to my blog: [Dart Blog](http://www.itblog.website/tags/veb_server).
+
 A server app built using [Shelf](https://pub.dev/packages/shelf),
 configured to enable running with [Docker](https://www.docker.com/).
 

@@ -9,5 +9,6 @@ import 'root_handler.dart';
 final router = Router()
   ..mount('/public/', createStaticHandler('lib/public'))
   ..get('/', rootHandler)
+  ..post('/', postRootHandler)
   ..get('/echo/<message>', echoHandler)
   ..get('/products', productsHandler);
